@@ -1,0 +1,35 @@
+/* Main Styles */
+header,main,footer{
+    margin:0 auto;
+    width:50%;
+}
+#top:hover{
+    color: black;
+}
+body{
+    background-color: rgb(240, 132, 150);
+    text-align:center;
+    color:white;
+}
+ol{
+    text-align:left;
+    color: black;
+}
+#top{
+    font-size: 40px;
+}
+footer p{
+    color:black;
+}
+img{
+    width:50%;
+    margin:0 auto;
+    display:block;
+}
+.bold{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+#quote{
+    font-size: 2em;
+}

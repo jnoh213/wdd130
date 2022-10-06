@@ -1,0 +1,84 @@
+/* ID's */
+#content{
+    max-width: 1600px;
+    margin:0 auto;
+}
+#background{
+    height:725px;
+
+}#background{
+    background-color: #124559;
+}
+#hero-img{
+    width:100%;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+}
+/* header */
+.icon{
+    width:80px;
+}
+.home-title{
+    color:#124559;
+}
+h4{
+    color:#598392;
+}
+header{
+    background-color: #598392;
+}
+nav a{
+    text-align: center;
+    color: #124559;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #598392 ;
+    background-color: #598392;
+}
+/* body */
+.book, .join{
+    color:#598392;
+    background-color:#80959c;
+    text-decoration:none;
+}
+body{
+    background-color:#124559 ;
+}
+main section{
+    text-align: center;
+}
+.book:hover, .join:hover{
+    color: #124559;
+    background-color: #dcdcdd;
+}
+.msg{
+    background-color: #aec3b0;
+}
+.msg h2{
+    color:#124559;
+}
+.msg p{
+    color:#598392;
+}
+
+/* footer */
+footer{
+    color:#598392;
+    background-color: #aec3b0;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+footer a{
+    color:#124559;
+    text-decoration:none;
+}
+footer a:hover{
+    color:#dcdcdd;
+}
+
