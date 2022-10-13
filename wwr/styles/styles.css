@@ -5,15 +5,14 @@
 #content{
     max-width: 1600px;
     margin:0 auto;
+    background-color: #dcdcdd;
 }
 #logo_link{
     padding-bottom: 5px;
 }
 #background{
     height:725px;
-
-}#background{
-    background-color: #598392;
+    background-color: #dcdcdd;
 }
 #hero-img{
     width:100%;
@@ -43,7 +42,7 @@ h4{
     color:#598392;
 }
 header{
-    background-color: #124559;
+    background-color: #dcdcdd;
 }
 nav a{
     padding:35px;
@@ -52,7 +51,7 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    color: #598392;
+    color: #aec3b0;
     background-color: #124559
 }
 /* body */
@@ -62,8 +61,8 @@ nav a:hover{
     margin-top: 50px;
     padding:15px 30px;
     font-size:18px;
-    color:#598392;
-    background-color:#124559;
+    color:#124559;
+    background-color:#dcdcdd;
     text-decoration:none;
 }
 .rivers-card{
