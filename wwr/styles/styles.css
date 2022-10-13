@@ -1,13 +1,19 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Libre+Baskerville&family=Montserrat:wght@100&family=Mukta:wght@300&display=swap');
+
 /* ID's */
 #content{
     max-width: 1600px;
     margin:0 auto;
 }
+#logo_link{
+    padding-bottom: 5px;
+}
 #background{
     height:725px;
 
 }#background{
-    background-color: #124559;
+    background-color: #598392;
 }
 #hero-img{
     width:100%;
@@ -17,54 +23,89 @@
 }
 /* header */
 .icon{
+    padding-top:10px ;
     width:80px;
 }
 .home-title{
-    color:#124559;
+    margin-top: 10px;
+    font-size: 2em;
+    color:#598392;
+    font-family:"Libre Baskerrville";
+}
+.card-img{
+    border:10px;
+}
+h2{
+    margin: 0;
 }
 h4{
+    font-family: "Montserrat";
     color:#598392;
 }
 header{
-    background-color: #598392;
+    background-color: #124559;
 }
 nav a{
+    padding:35px;
     text-align: center;
-    color: #124559;
+    color: #80959c;
     text-decoration: none;
 }
 nav a:hover{
-    color: #598392 ;
-    background-color: #598392;
+    color: #598392;
+    background-color: #124559
 }
 /* body */
 .book, .join{
+    border-radius: 5px;
+    border-color:#aec3b0;
+    margin-top: 50px;
+    padding:15px 30px;
+    font-size:18px;
     color:#598392;
-    background-color:#80959c;
+    background-color:#124559;
     text-decoration:none;
 }
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.rapids-card{
+    margin: 200px 0;
+}
 body{
+    margin:0;
+    padding:0;
+    font-size: 22px;
     background-color:#124559 ;
 }
 main section{
     text-align: center;
 }
 .book:hover, .join:hover{
-    color: #124559;
-    background-color: #dcdcdd;
+    color: #598392;
+    background-color: #124559;
 }
 .msg{
+    padding: 35px;
     background-color: #aec3b0;
 }
 .msg h2{
+    font-family:"Libre Baskerrville";
     color:#124559;
 }
 .msg p{
+    padding-bottom:15px;
+    font-size:0.8em;
     color:#598392;
 }
 
 /* footer */
 footer{
+    margin-top: 200px;
+    padding:25px 50px;
     color:#598392;
     background-color: #aec3b0;
 }
@@ -80,5 +121,8 @@ footer a{
 }
 footer a:hover{
     color:#dcdcdd;
+}
+footer .social img{
+    padding-top:15px;
 }
 
