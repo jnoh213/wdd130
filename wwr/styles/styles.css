@@ -47,7 +47,7 @@
 }
 #home-grid{
     display: grid;
-    grid-template-columns: repeat(1fr,10);
+    grid-template-columns: repeat(10,1fr);
 }
 /* header */
 .icon{
@@ -68,7 +68,7 @@
 }
 .card-img{
     border:10px;
-    transition:transfrom .5s;
+    transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
 .card-img, .mountians{
@@ -107,7 +107,7 @@ nav a:hover{
 /* body */
 .home-grid{
     display:grid;
-    grid-template-columns: repeat(1fr,10);
+    grid-template-columns: repeat(10,1fr);
 }
 .book, .join{
     border-radius: 5px;
