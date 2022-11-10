@@ -98,8 +98,8 @@
 }
 .home-title{
     margin-top: 10px;
-    font-size: 2em;
-    color:#598392;
+    font-size: 3em;
+    color:#124559;
     font-family:"Libre Baskerrville";
 }
 .card-img{
@@ -137,7 +137,7 @@ nav{
 nav a{
     padding:35px;
     text-align: center;
-    color: #80959c;
+    color: #124559;
     text-decoration: none;
 }
 nav a:hover{
