@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Libre+Baskerville&family=Montserrat:wght@100&family=Mukta:wght@300&display=swap');
 
 /* ID's */
+
 #content{
     max-width: 1600px;
     margin:0 auto;
@@ -51,6 +52,27 @@
     display: grid;
     grid-template-columns: repeat(10,1fr);
 }
+.rafts-grid{
+    display:grid;
+    grid-template-columns: repeat(6,1fr);
+}
+#rafting{
+    grid-column:1/4;
+    padding: 0;
+}
+#family_raft{
+    padding: 0;
+    grid-column:1/4;
+}
+#canoe{
+    grid-column:1/4;
+    padding:0;
+}
+#review{
+    grid-row:1/6;
+    grid-column: 5/7;
+    padding:0;
+}
 /* header */
 .logo{
     width:50px;
@@ -59,6 +81,14 @@
 .icon{
     padding-top:10px ;
     width:80px;
+}
+.rivers{
+    width: 800px;
+    height:500px;
+}
+#special{
+    width:535px;
+    height:500px;
 }
 .mountians{
     width:170%;
