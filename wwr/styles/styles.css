@@ -230,7 +230,7 @@ footer a:hover{
 }
 footer .social img{
     padding-top:15px;
-    width:80px;
+    width:4em;
 }
 
 @media screen and (max-width: 900px) {
