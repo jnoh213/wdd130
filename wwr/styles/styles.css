@@ -54,23 +54,27 @@
 }
 .rafts-grid{
     display:grid;
+    /* margin-bottom:-50%; */
     grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 30% 35% 35%;
+    height:50%;
 }
 #rafting{
     grid-column:1/4;
     padding: 0;
 }
 #family_raft{
-    padding: 0;
-    grid-column:1/4;
+    height:90%;
+    grid-column:1/7;
+    grid-row:2/3;
 }
 #canoe{
-    grid-column:1/4;
     padding:0;
+    grid-column:1/7;
+    grid-row:3/4;
 }
 #review{
-    grid-row:1/6;
-    grid-column: 5/7;
+    grid-column: 4/7;
     padding:0;
 }
 /* header */
@@ -83,12 +87,8 @@
     width:80px;
 }
 .rivers{
-    width: 800px;
-    height:500px;
-}
-#special{
-    width:535px;
-    height:500px;
+    width: 80%;
+    height:50%;
 }
 .mountians{
     width:170%;
@@ -210,7 +210,7 @@ footer{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 200px;
+    /* margin-top: 200px; */
     padding:25px 50px;
     color:#598392;
     background-color: #aec3b0;
