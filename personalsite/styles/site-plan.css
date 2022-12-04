@@ -5,8 +5,8 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #00a8e8  ;
-  --secondary-color: #007ea7 ;
+  --primary-color: #00a8e8;
+  --secondary-color: #007ea7;
   --accent1-color: #003459;
   --accent2-color: #00171f;
 
@@ -19,7 +19,7 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: #007ea7; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #00a8e8  ;
+  --paragraph-background-color: #00a8e8;
   --nav-link-color: #003459;
   --nav-background-color: white;
   --nav-hover-link-color: #00a8e8;
@@ -117,7 +117,6 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
-
 }
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
