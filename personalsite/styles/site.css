@@ -42,20 +42,37 @@ nav a:hover{
     color: #00a8e8;
     background-color: #00171f;
 }
+
 .info-grid{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
 
 }
+.example1{
+    grid-column: 1/2;
+    grid-row:1/3;
+}
+.example2{
+    grid-row:3/4;
+    grid-column:1/2;
+}
+.example1text{
+    grid-column: 2/4;
+}
+.example2text{
+    grid-column:2/4 ;
+    grid-row:3/6;
+}
 .face{
     grid-column: 1/2;
 }
 .school{
-    grid-column:2/4;
+    grid-column:3/5;
 }
 
 .flip-card {
     background-color: transparent;
+    padding-left:150px;
     width:600px;
     height: 600px;
     border: 1px solid #f1f1f1;
